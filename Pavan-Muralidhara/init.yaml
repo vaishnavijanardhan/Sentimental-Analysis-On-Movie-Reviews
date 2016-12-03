@@ -1,1 +1,14 @@
 
+### SGD
+classifier : sgd
+classifier_args : {alpha : 0.0001, n_iter : 50}
+lowercase : True
+bagwords: 
+ binary : True 
+ ngram_range : !!python/tuple [1, 5]
+ min_df : 0
+ max_features : null
+kbest : null
+sgdovo : True
+sentiment_score : True
+wordnet : True
