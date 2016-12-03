@@ -244,11 +244,7 @@ if __name__ == '__main__':
     train = load_train_data()
     analysis = SentimentAnalysis(**config)
     analysis.fit(train)
-    
-    ### 5-fold cross-validation
-    #analysis = lambda: SentimentAnalysis(**config)
-    #score = cross_validation(analysis, K=5)
-    #print('5-fold cross validation score %f %%'%(score*100))
+
 
     # get results on testing data
     test = load_test_data()
