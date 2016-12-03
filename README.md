@@ -7,6 +7,7 @@ The Movie Reviews have been obtained from the Rotten Tomatoes dataset.
 We are asked to classify the reviews on a scale of five values: negative, somewhat negative, neutral, somewhat positive, and positive 
 
 Group No. - 36
+
 Members - Atreya Madhav Joshi, atreyamj@usc.edu
           Pavan Muralidhara, pmuralid@usc.edu
           Mayank Anand, manand@usc.edu
