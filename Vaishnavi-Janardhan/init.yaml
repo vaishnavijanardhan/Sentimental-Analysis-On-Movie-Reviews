@@ -1,0 +1,15 @@
+### Linear SVC
+
+classifier : linear_svm
+classifier_args : {penalty : l1, dual : False, tol : 0.001}
+
+lowercase : True
+bagwords: 
+ binary : True 
+ ngram_range : !!python/tuple [1, 5]
+ min_df : 0
+ max_features : null
+kbest : null
+sgdovo : True
+sentiment_score : True
+wordnet : True
